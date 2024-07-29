@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn More - Loan Eligibility Prediction</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: url("data:image/jpeg;base64,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")
+          no-repeat center center fixed;
+        background-size: cover;
+        color: #333;
+      }
+      .container {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #007bff;
+        text-align: center;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      ul li {
+        background-color: #e9ecef;
+        margin: 5px 0;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      p {
+        line-height: 1.6;
+      }
+      .content {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Eligibility Criteria</h1>
+      <ul>
+        <li>Age: 18-65 years</li>
+        <li>Employment status: Must be employed or self-employed</li>
+        <li>Credit score: Minimum of 650</li>
+        <li>Income: Minimum annual income of $30,000</li>
+        <li>Debt-to-income ratio: Less than 40%</li>
+      </ul>
+      <div class="content">
+        <p>
+          Our tool uses machine learning algorithms to analyze your financial
+          data and predict your eligibility for a loan. Please provide accurate
+          information for the best results.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
